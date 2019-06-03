@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1247623859994689350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4365280595393004206}
+  - component: {fileID: 1247623859994689351}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365280595393004206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247623859994689350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 322.31567, y: 263.7064, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247623859994689351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247623859994689350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d502848c23c5554c9cf8d3935563878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainClip: {fileID: 8300000, guid: d834da361ac718f40a50b9b24eff160b, type: 3}
+  mouseClickClip: {fileID: 8300000, guid: 41badf89d6d1ab948ba27e2d5f783a3c, type: 3}
+  footstepsClip: {fileID: 8300000, guid: da392a59c4146bf4eb09ed3f0b92ae21, type: 3}
+  blowClip: {fileID: 8300000, guid: 7fb99a9434450df4dbd11e999373c5a8, type: 3}
+  blockClip: {fileID: 8300000, guid: 00bb120fb6d6a354a89f40fc09e62910, type: 3}
+  jumpClip: {fileID: 8300000, guid: 7284c0c268452f44297da2b688811ff1, type: 3}
+  lettersClip: {fileID: 8300000, guid: 8be06eba7b21c0c46a7b54f23d077f0f, type: 3}
+  buttonsClip: {fileID: 8300000, guid: 97ea9863128f8c9458b2540543749ce3, type: 3}
+  ouchClip: {fileID: 8300000, guid: ff0dbe8f02055ff46b49cc86a62734f7, type: 3}
+  mainGroup: {fileID: 24300002, guid: f392d147a94a14b45a2479c2455d5eda, type: 2}
+  musicGroup: {fileID: 243431523266070644, guid: f392d147a94a14b45a2479c2455d5eda,
+    type: 2}
+  movementGroup: {fileID: 243605143197133136, guid: f392d147a94a14b45a2479c2455d5eda,
+    type: 2}
+  mouseclickGroup: {fileID: 243605029579104966, guid: f392d147a94a14b45a2479c2455d5eda,
+    type: 2}
+  blowGroup: {fileID: 243438413529356456, guid: f392d147a94a14b45a2479c2455d5eda,
+    type: 2}
+  volumeFootsteps: 0.2
+  volumejump: 1
+  volumeSlider: {fileID: 8274300307856382725, guid: 6257458102bd6ca4096f6eb878deefc7,
+    type: 3}
