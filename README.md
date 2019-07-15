@@ -1,2 +1,2 @@
 # Blocker
-My first game made
+The first game which was made by my own
